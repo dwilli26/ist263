@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title> Unit 4 Notes - Forms</title>
+    </head>
+    <body>
+        <h1> Apply for College</h1>
+        <form action="mailto:dwilli26@syr.edu" method="POST">
+                <!--this action sends form to email-->
+                <!--post method is required with mailto-->
+                <!--post sends from data with website headers-->
+                <label for="firstname">First name: </label>
+                <input type="text" id="firstname" name="firstname"><br>
+                <!-- 'for' specifies the id attribute in the input-->
+
+            
+                <label for="comments">Comments: </label>
+                <textarea id="comments" name="comments" rows="10" cols="100">Type your comments here.</textarea><br>
+                <!-- place default text in between start and close tag.-->
+                <!--white space matters in the default text space.-->
+
+                <!--Radio button code: <input type="radio" name="" id="" value="">
+                <label for=""></label> -->
+                <p><strong>Please choose your current year in school.</strong></p>
+                <input type="radio" name=schoolyr id="schoolyr1" value="First-Year">
+                <label for="schoolyr1">First-Year</label>
+                <input type="radio" name=schoolyr id="schoolyr2" value="Sophomore">
+                <label for="schoolyr2">Sophomore</label>
+                <input type="radio" name=schoolyr id="schoolyr3" value="First-Year">
+                <label for="schoolyr3">Junior</label>
+                <input type="radio" name=schoolyr id="schoolyr4" value="First-Year">
+                <label for="schoolyr4">Senior</label><br>
+
+
+                <!--Checkbox code: <input type="checkbox" name="" id="" value="">
+                <label for=""></label> -->
+                <input type="checkbox" name="veteran" id="veteran" value="yes">
+                <label for="veteran">Veteran?</label><br>
+
+                <label for="start">When are you starting?</label>
+                <select name="start" id="start">
+                    <option value="F21">Fall 2021</option>
+                    <option value="S22">Spring 2022</option>
+                </select><br>
+                
+                <input type="submit" value="Send Application">
+                <!-- value determines what the button says. default is "submit".-->
+
+
+        </form>
+
+        </form>
+    </body>
+</html>
