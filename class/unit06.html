@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>CSS Demo</title>
+        <!-- below is the tage for css, "style"; it goes in the head tag-->
+        <style>
+            /* group selector below (commas) */
+            p, li {color:darkgreen;
+                font-size: 1em;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight:bolder;
+                text-decoration: line-through;
+            }
+            
+            /*below is a single selector, not group*/
+            body {
+                color: blue;
+
+            }
+
+            /* this is a descendant selector, "only a tags within p tags will be this color" */
+            p a {
+                color:firebrick
+            }
+
+            /* # pound sign is used for id selectors*/
+            #firstp {
+                color:deeppink
+            }
+
+            /* . dot is used for class selectors */
+            .thirdp {
+                color:gold
+            }
+
+        </style>
+        <!-- p is the selector, color is the property, green is the value-->
+        <!-- the declaration is "colors: darkred"-->
+        <!-- 1em is standard font size, .5em is half that size, 2em is double it-->
+        <!-- you can also use percentages, ex: 200% is 2em, 100%=1em-->
+        <!-- the more specfiic tag will effect the page. For example, 
+            the p tag style overrides the body tag style-->
+    </head>
+    <body>
+        <!-- id values must be unique-->
+        <p id="firstp">Lorem ipsum</p>
+
+        <p>Second paragraph <a href="http://google.com">Google</a></p> 
+
+        <!--class attributes can be used over and over w the same value-->
+        <P class="thirdp">third paragraph</P>
+
+        <ul>
+            <li>List item 1</li>
+            <li><a href="http://google.com">Google</a></li>
+        </ul>
+    
+    </body>
+</html>
