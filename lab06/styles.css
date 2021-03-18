@@ -7,7 +7,7 @@ h1, h2 {
 }
 
 .evenrow {
-    color: gray /*ask about font color*/
+    background-color: gray
 }
 
 h1 {
