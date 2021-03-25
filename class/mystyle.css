@@ -1,0 +1,42 @@
+h1 {
+    color: #ff0000;
+
+}
+
+/* these three selectors below are psuedo-selectors.*/
+/* a colon separates the selector (a) from it's state (link) */
+
+a:link {
+    color: #00ff00
+}
+
+a:visited {
+    color: #0000ff
+}
+
+a:hover {
+    color: #8000ff;
+    background-color: #00eeff
+}
+
+/*this selector uses a class selector (.lookdifferent) with pseudo states (hover) */
+.lookdifferent:hover {
+    color: #999999
+}
+/* this changes the background of the whole page, adding an image and changing color */
+body {
+    background-image: url(../images/LI-In-Bug.png);
+    background-size: 200px;
+    background-color: #c9c9ab
+}
+
+/*padding gives space ebtween content and edge of box*/
+/*margin is space outside of the box and rest of content*/
+p {
+    background-color: #ffffff;
+    padding: 20x;
+    margin: 50px;
+    border: 5px solid #0000ff
+    /* this is a combo, boorder width, type, and color in one row*/
+    /*width of the box is (content width + border width)*2 + (margin width)*2 + (padding width)*2 */
+}
