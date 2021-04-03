@@ -39,8 +39,8 @@ h2 {
     font-size: 1em;
 }
 
-.address {float: left; margin: 0px 20px 10px 0px;}
-.firstrow{background-color: white; border-radius: 1em;}
+.address {float: left; margin: 0px 20px 10px 10px;}
+.firstrow{background-color: white; border-radius: 1em; padding: 2em;}
 .secondrow {display: flex;
             background-color: white; border-radius: 1em;}
 .contact{flex: 1; order: 1; margin: 5px 200px 10px 10px;}
