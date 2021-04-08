@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E0EDFF ;
+    color:#000000;
+}
+
+a {color: #165AB8}
+
+nav{
+    background-color: #96C2FF;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a{
+    color:#000000;
+    padding: 5px;
+}
+
+nav a:hover{
+    background-color: #458AE4;
+}
+
+.quote{float: right;}
+
+
+h1, h2 {
+    color: navy;
+}
+
+.evenrow {
+    background-color: gray
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+.address {float: left; margin: 0px 20px 20px 5px;}
+.firstrow{background-color: white; border-radius: 1em; padding: 1em; margin-bottom: 25px;}
+.secondrow {display: flex;
+            flex-wrap: wrap;
+            background-color: white; border-radius: 1em;}
+.contact{flex: 1; order: 1; margin: 5px 200px 10px 10px;}
+.map {flex: 2; order: 2}
+.clearclass {clear: both}
+.paddress {margin: 5px 10px 15px 10px;}
+
+.firstimg {max-width: 100%;}
+
+@media only screen and (max-width: 920px){
+    nav a{width: 100%; display: block}
+    span {display: none;}
+}
+
+@media only screen and (min-width: 920px){
+
+}
