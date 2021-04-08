@@ -54,7 +54,7 @@ h2 {
 
 @media only screen and (max-width: 920px){
     nav a{width: 100%; display: block}
-    span {display: none;}
+    .separator {display: none;}
 }
 
 @media only screen and (min-width: 920px){
