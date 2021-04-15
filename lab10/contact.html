@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <title>Contact</title>
@@ -8,70 +8,82 @@
         <meta name="viewport" content="width=device-width, inital-scale=1.0">
     </head>
     <body>
-        <nav>
-            <a href="index.html">Home</a> <span class= "separator">|</span>
-            <a href="skills.html">Skills</a> <span class= "separator">|</span>
-            <a href="contact.html">Contact</a>
-        </nav>
-        <h1>Contact</h1>
+            <header>
+                <nav>
+                    <a href="index.html" tabindex="1">Home</a> <span class= "separator">|</span>
+                    <a href="skills.html" tabindex="2">Skills</a> <span class= "separator">|</span>
+                    <a href="contact.html" tabindex="3">Contact</a>
+                </nav>
+                <a id="skipbutton" href="#maincontent" tabindex="4">Skip to Content</a>
+            </header>
+        <main>
+            <h1>Contact</h1>
 
-        <h2><strong>David Williams</strong></h2>
+            <h2><strong>David Williams</strong></h2>
 
-        <div class="firstrow">
-            <div class="address">
-                <p class="paddress">
-                    <strong>Address</strong><br><br><br>
-                        Syracuse University - Maxwell School of Citizenship & Public Affairs<br>
-                        900 S Crouse Ave<br>
-                        Syracuse, NY 13210
-                </p>
-            </div>
-            
-            <div>
-                <p>
-                    <a href="mailto:dwilli26@syr.edu"><strong>David Williams Email</strong></a>
-                </p>
-            
-                <p>
-                    <a href="http://linkedin.com/in/davidjwilli" target="_blank"><img src=../images/logo-sized.png alt="LinkedIn Logo"><br><strong>My LinkedIn Profile</strong></a>
-                </p>
-            </div>
-        </div>
-
-        <div class="clearclass"></div>
-
-        <div class="secondrow">
-            <div class="map">
-                <p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.1939413996306!2d-76.13866858452211!3d43.03735077914725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39f4537cd79%3A0x968a90aa98400698!2s900%20S%20Crouse%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1614117162010!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
-                </p><br>
+            <div class="firstrow">
+                <div class="address">
+                    <p class="paddress">
+                        <strong>Address</strong><br><br><br>
+                            Syracuse University - Maxwell School of Citizenship & Public Affairs<br>
+                            900 S Crouse Ave<br>
+                            Syracuse, NY 13210
+                    </p>
+                </div>
+                
+                <div>
+                    <p>
+                        <a href="mailto:dwilli26@syr.edu" tabindex="5"><strong>David Williams Email</strong></a>
+                    </p>
+                
+                    <p>
+                        <a href="http://linkedin.com/in/davidjwilli" target="_blank" tabindex="6"><img src=../images/logo-sized.png alt="LinkedIn Logo"><br><strong>My LinkedIn Profile</strong></a>
+                    </p>
+                </div>
             </div>
 
-            <div class= "contact">
-                <h3>Contact Me!</h3>
-                <form action="mailto:dwilli26@syr.edu" method="post">
-                    <label for="fname">First Name:</label>
-                    <input type="text" name="fname" id="fname"><br>
+            <div class="clearclass"></div>
 
-                    <label for="lname">Last Name:</label>
-                    <input type="text" name="lname" id="lname"><br>
+            <div class="secondrow">
+                <div class="map">
+                    <p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.1939413996306!2d-76.13866858452211!3d43.03735077914725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39f4537cd79%3A0x968a90aa98400698!2s900%20S%20Crouse%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1614117162010!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" tabindex="14"></iframe>
+                    </p><br>
+                </div>
 
-                    <br>Reason for inquiry:
-                    <input type="radio" name="consult" id="consult" value="consult">
-                    <label for="consult">Consultation</label>
-                    <input type="radio" name="consult" id="meeting" value="meeting">
-                    <label for="meeting">Meeting Request</label>
-                    <input type="radio" name="consult" id="other" value="other">
-                    <label for="other">Other</label><br>
+                <div class= "contact">
+                    <h3>Contact Me!</h3>
+                    <form action="mailto:dwilli26@syr.edu" method="post">
+                        <label for="fname">First Name:</label>
+                        <input type="text" name="fname" id="fname" tabindex="7"><br>
 
-                    <br><label for="message">Message:</label><br>
-                    <textarea id="message" name="message" rows="10" cols="50">Write your message here.
-                    </textarea><br>
+                        <label for="lname">Last Name:</label>
+                        <input type="text" name="lname" id="lname" tabindex="8"><br>
 
-                    <input type="submit" value="Send Message">
+                        <fieldset>
+                            <br>Reason for inquiry:
+                            <input type="radio" name="consult" id="consult" value="consult" tabindex="9">
+                            <label for="consult">Consultation</label>
+                            <input type="radio" name="consult" id="meeting" value="meeting" tabindex="10">
+                            <label for="meeting">Meeting Request</label>
+                            <input type="radio" name="consult" id="other" value="other" tabindex="11">
+                            <label for="other">Other</label><br>
+                        </fieldset>
 
-                </form>
+                        <br><label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="10" cols="50" tabindex="12">Write your message here.
+                        </textarea><br>
+
+                        <input type="submit" value="Send Message" tabindex="13">
+
+                    </form>
+                </div>
             </div>
-        </div>
+    </main>
+        <footer>
+            <hr>
+            &copy; 2021
+            <span class="quote">The sky is not the limit, it's just the beginning.</span>
+        </footer>
     </body>    
 </html>

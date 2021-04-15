@@ -61,3 +61,14 @@ h2 {
 @media only screen and (min-width: 920px){
 
 }
+
+#skipbutton {position: absolute; 
+    left: -999px;
+    background-color: white;
+    border: 1px solid black;
+    }
+
+#skipbutton:focus {
+    position: absolute;
+    left: 10px;
+    }
