@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 10 Accessibility</title>
+        <style>
+            #skipbutton {position: absolute; 
+                        /* position based on top left of viewport*/
+                        left: -999px;
+                        /* means the element is off screen*/
+
+                        background-color: white;
+                        border: 1px solid black;
+                        }
+
+                        /* focus means when the item is tab to*/
+                #skipbutton:focus {
+                        position: absolute;
+                        left: 10px;
+                        }
+        </style>
+    </head>
+    <body>
+        <h1>Unit 10 Notes</h1>
+        <!--headings should be hierarchacal-->
+
+        <img src="../images/LI-Logo.png" alt="linkedin logo">
+
+        <a id="skipbutton" href="#maincontent">Skip to Content</a>
+        <!--anchor link - links lower on the page-->
+
+        <a href="http://www.google.com" tabindex="2">Google</a>
+        <a href="http://www.amazon.com" tabindex="3">Amazon</a>
+        <a href="http://www.ebay.com" tabindex="1">eBay</a>
+
+        <a id="maincontent"></a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id pretium ex. Fusce eu aliquam erat. Phasellus bibendum euismod pretium. Donec magna turpis, rutrum at viverra ac, dignissim imperdiet odio. Quisque tincidunt eget nibh eget venenatis. Morbi metus lectus, fringilla eu dolor vel, pulvinar faucibus leo. Duis id consectetur ex. Duis faucibus nisl in mi maximus mattis.</p>
+    </body>
+</html>
