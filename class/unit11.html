@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 11 Notes</title>
+        <script>
+            /* script tag allows us to embed JavaScript */
+            /*function tells JavaScript it has a name "SayHello" */
+            /*curly brackets must be around the named code*/
+            function SayHello() {
+                alert("Hello Web Developers");
+                /*an onload event in the body tag*/
+            }
+
+            function SecondFunction () {
+                alert("Second Alert");
+                
+            }
+
+            function ThirdFunction () {
+                alert("Third Alert");
+            }
+            /*csecond and thirdrow have onclick event in the link a tags*/
+        </script>
+    </head>
+    <body onload="SayHello();">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed neque velit. Quisque ac varius eros. Maecenas mollis nisi et erat iaculis congue. Morbi est massa, facilisis a elit eu, dapibus bibendum felis. Aliquam erat volutpat. Donec eget dui lobortis nisl lacinia pharetra eu vitae est. Cras tempor ultricies consectetur. Vivamus tristique ullamcorper sagittis. Vestibulum congue ornare dapibus. In nisi risus, mollis a velit ut, vulputate eleifend tellus. Nunc ex eros, scelerisque sit amet libero ut, blandit luctus enim. Fusce ex augue, facilisis in euismod tristique, luctus et nibh. Quisque feugiat facilisis efficitur. Nullam dictum purus et risus pretium, vitae elementum velit sollicitudin. Phasellus feugiat diam elit, vel mollis nisl feugiat a. Morbi hendrerit erat nec iaculis consectetur.
+
+        Sed rutrum justo sed felis pretium venenatis. Morbi mauris tortor, rhoncus quis ipsum et, commodo hendrerit ante. Ut placerat sem accumsan lorem semper, et egestas enim viverra. Cras eu nunc magna. Donec pretium magna metus, at finibus ligula porttitor eleifend. Aenean justo nulla, efficitur id tortor a, tempus mollis enim. Proin sit amet pretium purus, vel interdum ligula. Duis nec magna non turpis tincidunt gravida vitae vel turpis. Curabitur posuere arcu a mi vestibulum auctor id ut dui.<br>
+
+        <a onclick="SecondFunction();" href="">Second Function Link</a><br>
+        <!-- ^^ this runs the function above when clicked-->
+        
+        <a onclick="ThirdFunction();" href="">Third Function Link</a>
+    </body>
+</html>

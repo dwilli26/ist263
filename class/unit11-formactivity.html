@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact | Bristol Cares Coalition</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img src="../media/bristolcares-bannerlogo.png" alt="bristol cares banner logo"><!--need to scale down-->
+                <a href="index.html">Home</a> <span class= "separator">|</span>
+                <a href="resources.html">Resources</a> <span class= "separator">|</span>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <script>
+                function FormBlur() {
+                alert("you left this form element");
+            }
+            </script>
+        </header>
+
+        <main>
+            <h1>Contact Us!</h1>
+
+            <h2>Join Our Newsletter:</h2>
+
+            <p>
+            Our weekly newsletter contains coalition updates, upcoming community events, community job postings, and organization spotlights!<br>
+            <a href="">Join the newsletter today!</a><br><br> <!--need to receive sign up link-->
+            Want your event or organization spotlighted in our newsletter? Fill out this <a href="https://docs.google.com/forms/d/e/1FAIpQLSdXda77kDxuQt-QRfLcBe6glpVd2O-gWV-OgbOFJO7U_oy4QA/viewform?usp=sf_link">form.</a>
+            </p>
+
+
+            <h2>Become a Partner!</h2>
+            <p>
+            Partners form the core of the coalition and allow us to impact even more students in the community. Want to become a member of Bristol Cares? Fill out the form below:
+            </p>
+
+            <form action="mailto:bristolcarescoalition@gmail.com" method="POST">
+                <label for="firstname">First name: </label>
+                <input type="text" onblur="FormBlur();" id="firstname" name="firstname"><br><br>
+                <label for="lastname">Last name: </label>
+                <input type="text" id="lastname" name="lastname"><br><br>
+                <label for="email">Email: </label>
+                <input type="text" id="email" name="email"><br><br>
+                <label for="orgs">Organization (N/A if no affiliation): </label>
+                <input type="text" id="orgs" name="orgs"><br><br>
+
+
+            
+                <label for="message">Message: </label><br>
+                <textarea id="message" name="message" rows="10" cols="100">Type your message or comments here.</textarea><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
