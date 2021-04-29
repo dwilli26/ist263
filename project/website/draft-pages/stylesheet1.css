@@ -1,0 +1,167 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+nav {
+    position: fixed;
+      background-color: #B0DFF5;
+      height: 78px;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      box-shadow: 0px 2px 5px 0px rgba(0,0,0,.25);
+      border-bottom: 4px solid #76B4D1;
+}
+
+#header {margin: 0;}
+
+nav ul {
+    list-style-type: none;
+    float: right;
+    margin-right: 10px;
+    margin-left: 100px;
+
+
+
+}
+
+nav ul, li { 
+    display: inline-block;
+    line-height: 50px;
+    padding-right: 16px;
+    font-size: 20px;}
+
+nav li {
+    float: left;
+    margin-right: 100px;
+
+}
+  
+nav ul li a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+  
+li a:hover {
+    background-size: 4em;
+    color: orange;
+    transition: .5s;
+}
+
+
+.bannerlogo{
+    width: 30%;
+    margin-left: 40px;
+}
+
+
+main {
+    padding-top: 100px;
+    margin-left: 30px;
+}
+
+span {
+    display: inline-block;
+    line-height: 70px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+/*headers/font styling*/
+
+h2 {
+    color: black;
+}
+
+
+/*footer styling*/
+
+
+footer {color: rgb(58, 58, 58);;
+    background-color: #76B4D1;
+    text-transform: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    height: 300px;
+    /*box-shadow: 0px 0px 5px 2px rgba(0,0,0,.25);*/
+}
+
+.footerfirstrow {
+    background-color: #B0DFF5;
+    text-align: center;
+    font-weight: bold;
+    height: 55px;
+    text-transform: none;
+    padding-left: 42.5%;
+
+}
+
+
+footer a:visited {
+
+    color: rgb(58, 58, 58);
+    text
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+}
+
+#newsletterlink {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.footerfirstrow, .footersecondrow, .footerthirdrow {
+    display: flex;
+
+}
+
+div {
+ flex: 1;
+
+}
+
+.footerfirstcol {
+    height: 0px;
+}
+
+.footersecondcol, .footerthirdcol {
+    height: 200px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+
+}
+
+.footerthirdrow {
+    text-align: center;
+    
+}
+.footerlogo {
+        width: 83%;
+        margin-left: 20px;
+
+
+}
+
+.clearcolumn {
+    width: 200px;
+}
+
+.copy {
+    margin-left: 50px;
+    font-weight: none;
+}
+
