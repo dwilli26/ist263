@@ -6,28 +6,40 @@
         <title>Home | Bristol Cares Coalition</title>
         <meta name="viewport" content="width=device-width, inital-scale=1.0">
         <link rel="stylesheet" href="stylesheet1.css">
+        <script>
+            function changebgcolor () {
+                document.getElementById("footercolor").style.backgroundColor = 
+                    document.getElementById("cp").value;
+                    /*here we are first locating the element that we change the style on (background color),
+                    on the bottom we locate the value of the form that has the hex color for the style (the color picker)*/
+            }
+        </script>
     </head>
     
     <body>
         <nav class="navbar navbar-inverse navbar-fixed-top">
-                <img src="../../media/bristolcares-bannerlogo12.png" class="bannerlogo" alt="bristol cares banner logo">
+            <div class="firstrow">
+                <div class="firstcol">
+                    <img src="../../media/bristolcares-bannerlogo-1.png" class="bannerlogo" alt="bristol cares banner logo">
+                </div>
 
+                <div class="seccol">
+                    <ul class="navmenu">
+                        <li><a href="index.html">Home</a></li>
 
-                <ul class="navmenu">
-                    <li><a href="index.html">Home</a></li>
+                        <li><a href="resources.html">Resources</a></li>
 
-                    <li><a href="resources.html">Resources</a></li>
-
-                    <li><a href="contact.html">Contact</a></li>
-
-                </ul>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
         <!-- add skip to content button with this html, this might need to be within the nav tag: <a id="skipbutton" href="#maincontent">Skip to Content</a>-->
         <main>
             
             <h1 id="header">About Us</h1>
             <!--image gallery photos below-needs to be resized so it fits full width of page-->
-            <img src="../media/IMG_5974.jpg" alt="group event with students">
+            <img src="../../media/IMG_5974.jpg" alt="group event with students">
             <img src="../media/IMG_5656.jpg" alt="communtiy mural at school">
             <img src="../media/IMG_5899.JPG" alt="logo contest winner">
             <img src="../media/IMG_5891.JPG" alt="group event">
@@ -60,9 +72,13 @@
             <!--image gallery of partner logos below-need to receive more-->
             <img src="../media/BTSDLogo.png" alt="bristol township school district logo">
             <img src="../media/womansplace-270x300.jpg" alt="a womens place logo">
+
+            <form>
+                <input type="color" id="cp" onchange="changebgcolor();">
+            </form>
         </main>
 <br><br>
-        <footer>
+        <footer id="footercolor">
             <!--first row-->
             <div class="footerfirstrow">
                 <p><strong><a href="" id="newsletterlink">Sign up to join our newsletter!</a></strong><br></p>
