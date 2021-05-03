@@ -104,7 +104,7 @@ h2 {
 /*footer styling*/
 
 
-footer {color: white;
+footer {color: black;
     background-color: #76B4D1;
     text-transform: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -130,7 +130,7 @@ footer {color: white;
 
 
 footer a {
-    color: white;
+    color: black;
     text-decoration: none;
 
 }
