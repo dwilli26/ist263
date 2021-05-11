@@ -4,20 +4,20 @@ body {
     padding: 0;
     box-sizing: border-box;
     color: black;
-    background-color: rgb(223, 241, 248);
+    background-color: rgb(243, 251, 255);
 }
 
 
 nav {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: fixed;
-    background-color: #B0DFF5;
-    height: 78px;
+    background-color: #cee6f1;
+    height: 100px;
     width: 100%;
     margin: 0;
     padding: 0;
     box-shadow: 0px 2px 5px 0px rgba(0,0,0,.25);
-    border-bottom: 4px solid #76B4D1;
+    border-bottom: 5px solid #76B4D1;
 }
 
 
@@ -32,9 +32,9 @@ nav ul {
 
 nav ul, li { 
     display: inline-block;
-    line-height: 50px;
+    line-height: 70px;
 
-    font-size: 20px;}
+    font-size: 1.1em;}
 
 nav li {
     float: left;
@@ -50,6 +50,7 @@ nav ul li a {
     padding: 5px;
     margin-right: 120px;
     border-radius: 3px;
+    
 }
 
 li a:hover {
@@ -60,22 +61,21 @@ li a:hover {
 }
 
 
+
 .bannerlogo{
     margin-left: 40px;
     float: left;
+    width: 31%;
 }
 
 
 
 main {
     padding-top: 82px;
+    margin-left: 75px; margin-right: 75px;
+    background-color: white;
 
-
-}
-
-.slideshowcontainer{
-  position:static;
-  color: black;
+    
 
 }
 
@@ -97,7 +97,7 @@ h2 {
 
 
 /*footer styling*/
-
+.navbar, .footerfirstrow, .footersecondrow, .footerthirdrow{max-width: 100%;}
 
 footer {color: black;
     background-color: #76B4D1;
@@ -130,7 +130,7 @@ footer a {
 
 }
 
-#footerheading1, #footerheading2 {font-size: 1em;}
+#footerheading1, #footerheading2, #footerheading3 {font-size: 1em;}
 
 #newsletterlink {
     text-align: center;
@@ -167,7 +167,7 @@ div {
     text-align: center;
 
 }
-.footerlogo {
+.desktopfooterlogo {
         padding-top:30px;
         margin-left: 20px;
 
@@ -188,16 +188,92 @@ div {
 /*main content css*/
 
 .slideshowphoto{
+
     width: 100%;
     margin: 0px;
+    /*resolution 1944pxx576*/
 }
+
+
 
 .abouttext{
     margin-left:15px;
+    margin-top: 50px;
 }
 
 .ctc, .partners{
-    background-color: white; 
-    border-radius: 1em;
-    padding: 1em;
-    border: 1px solid black;}
+    background-color: white;
+   
+    }
+
+
+.pagetitle {margin-left: 40%;
+    background-color: #76B4D1;
+color: white}
+
+.title{text-align: center;
+        font-size: 3.5em;
+        background-color: #76B4D1;
+        margin-left: 100px; margin-right: 100px;
+        padding: 0.2em; padding-top:1em;
+        height: 60px;
+    line-height: 30px;
+color: white; border-bottom: 20px solid #cee6f1;}
+
+.orgdescription{text-align: center;
+    font-size: 1.2em;
+    border: 1px solid #76B4D1;
+    background-color: #76B4D1;
+    margin-left: 100px; margin-right: 100px;
+    padding: 0.5em;
+    height: 80px;
+line-height: 40px;
+color: white;}
+        
+main div {border: none;}
+
+.slideshowcontainer{height:200px;
+    max-width: 100%;}
+
+.slideshowphoto{height: 320px;
+        background-image: url(../../media/aboutimg2.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+
+.slideshowcontainer span {margin-left: 22%;}
+
+/*responsive design css*/
+
+@media only screen and (min-width: 1030px) {
+.mobilefooter{display: none;}
+
+}
+
+@media only screen and (max-width: 1030px) {
+   
+    .footerfirstrow, .footersecondrow, .footerthirdrow {flex-wrap: wrap;}
+    .footerfirstcol, .footersecondcol, .footerthirdcol {flex-wrap: wrap;}
+    .desktopfooter{display: none;}
+    footer {height: 458px;}
+    .newsletterli{margin-top:20px;}
+    
+}
+
+
+.mobilefooter {text-align: center;}
+
+.mfooterfirstrow{
+    background-color: #B0DFF5; height: 50px;}
+
+.mfooterfirstrow a {color: rgb(58, 58, 58);}
+
+.mfootersecondrow {padding-top: 20px;}
+
+.mfooterthirdrow {padding-top: 50px; height: 215px}
+
+.mfooterforthrow{background-color: #B0DFF5;}
+
+
+
