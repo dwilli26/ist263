@@ -1,0 +1,341 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    background-color: rgb(223, 241, 248);
+}
+
+h1, h2 {font-weight:bolder; color: #4a7a91;
+    font-family: 'Mukta', sans-serif;}
+
+    #header {color: white;}
+
+#header {color: white;}
+
+nav {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: fixed;
+    background-color: #cee6f1;
+    height: 90px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,.25);
+    border-bottom: 5px solid #76B4D1;
+}
+
+
+nav ul {
+    list-style-type: none;
+    float: right;
+
+
+
+
+}
+
+nav ul, li { 
+    display: inline-block;
+    line-height: 70px;
+
+    font-size: 1.1em;}
+
+nav li {
+    float: left;
+
+
+}
+
+nav ul li a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 120px;
+    border-radius: 3px;
+    
+}
+
+li a:hover {
+    background-size: 4em;
+    color: orange;
+    transition: .5s;
+    text-decoration: underline;
+}
+
+
+
+.bannerlogo{
+    margin-left: 40px;
+    float: left;
+    margin-top: 12px;
+    
+}
+
+
+
+main {
+    padding-top: 90px;
+    margin-left: 75px; margin-right: 75px;
+    background-color: white;
+    padding-bottom:50px;
+
+    
+
+}
+
+.slideshowcontainer{
+  position:static;
+  color: white;
+}
+
+.bottomleft{
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+}
+
+
+span {
+    display: inline-block;
+    line-height: 70px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+/*headers/font styling*/
+
+
+
+
+/*footer styling*/
+
+
+/*footer styling*/
+.navbar, .footerfirstrow, .footersecondrow, .footerthirdrow{max-width: 100%;}
+
+footer {color: black;
+    background-color: #76B4D1;
+    text-transform: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    height: 300px;
+    /*box-shadow: 0px 0px 5px 2px rgba(0,0,0,.25);*/
+}
+
+.footerfirstrow {
+    color: rgb(58, 58, 58);
+    background-color: #B0DFF5;
+    text-align: center;
+    font-weight: bold;
+    height: 55px;
+    text-transform: none;
+    padding-left: 42.5%;
+
+}
+
+.footerfirstrow a {
+    color: rgb(58, 58, 58);
+}
+
+
+footer a {
+    color: black;
+    text-decoration: none;
+
+}
+
+#footerheading1, #footerheading2, #footerheading3 {font-size: 1em;}
+
+#newsletterlink {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.footerfirstrow, .footersecondrow, .footerthirdrow {
+    display: flex;
+
+}
+
+.footersecondrow{
+    font-size: 0.8em;
+}
+
+div {
+ flex: 1;
+
+}
+
+.footerfirstcol {
+    height: 0px;
+}
+
+.footersecondcol, .footerthirdcol {
+    height: 200px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+
+}
+
+.footerthirdrow {
+    text-align: center;
+
+}
+.desktopfooterlogo {
+        padding-top:30px;
+        margin-left: 20px;
+
+
+}
+
+.clearcolumn {
+    width: 200px;
+}
+
+.copy {
+    margin-left: 0px;
+    font-weight: none;
+    font-size: 0.8em;
+    float: right;
+}
+
+/*main content css*/
+
+.resourcerow{
+    background-color: white; 
+    border-radius: 1em; 
+    display: flex;
+    padding: 1em;
+    border: 1px solid black;
+    max-width:100%;
+    flex-wrap: wrap; margin-bottom: 30px;
+}
+
+
+.resources{display: flex; flex-wrap: wrap;}
+
+.resources h2{font-size: 1.4em;}
+
+.foodandhealth{
+    display: flex; flex-wrap: wrap;
+    padding: 1em;
+    margin-left: 30px; margin-right: 30px;
+    max-width: 100%;}
+
+.foodcol, .healthcol {border: 1px solid black; 
+    border-radius: 1em; 
+    padding: 1em;}
+
+main a {color: black;
+text-decoration: underline;
+font-style: italic;}
+
+.resourcerow a{
+    font-style: normal;
+}
+
+.maintext{margin-left: 50px;}
+
+h1 {margin-top: 40px;}
+
+.resourcerow {margin-right: 50px; margin-left: 50px;}
+.foodcol{margin-right: 40px;}
+.healthcol{margin-left: 40px;}
+
+/*media queries*/
+
+    /*footer*/
+
+@media only screen and (max-width: 1030px) {
+   
+    .footerfirstrow, .footersecondrow, .footerthirdrow {flex-wrap: wrap;}
+    .footerfirstcol, .footersecondcol, .footerthirdcol {flex-wrap: wrap;}
+    .desktopfooter{display: none;}
+    footer {height: 458px;}
+    .newsletterli{margin-top:20px;}
+}
+
+@media only screen and (min-width: 1030px) {
+    .mobilefooter{display: none;}
+    }
+
+    .mobilefooter {text-align: center;}
+
+    .mfooterfirstrow{
+        background-color: #B0DFF5; height: 50px;}
+    
+    .mfooterfirstrow a {color: rgb(58, 58, 58);}
+    
+    .mfootersecondrow {padding-top: 20px;}
+    
+    .mfooterthirdrow {padding-top: 50px; height: 215px}
+    
+    .mfooterforthrow{background-color: #B0DFF5;}
+
+/*resources main content media css*/
+
+@media only screen and (min-width: 800px) {
+    .desktopresources{max-width: 100%;}
+    .mobileresources{display:none;}
+  
+
+}
+@media only screen and (max-width: 800px){
+    .desktopresources{display: none;}
+    .mobileresource{max-width: 100%;
+        border: 2px black solid;
+        text-align: center;
+        border-radius: 5px;
+        margin: 20px;
+        padding: 10px;
+        background-color: #d4e7f0e0;
+    }
+    
+    .mobileresources a {font-style: normal;}
+    
+
+
+}
+
+.resourcerow{width: 100%}
+.titles, .maintext{text-align: center;margin-left: 0px;}
+
+/*mobile nav queries*/
+@media only screen and (max-width: 1063px){
+    nav ul li a {
+        padding: 5px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    .navmenu {margin-right: 50px;}
+}
+
+@media only screen and (max-width: 784px){
+    .desktopnav{display:none;}
+   nav{height: 150px; border-bottom: none;}
+   .menucontainer, .bannercontainer{display:flex; text-align: center;}
+   .menucontainer{height: 50px; padding-bottom: 50px; 
+    background-color:#76B4D1; 
+    display: block; 
+    padding-right: 15%; 
+    border-bottom: 5px solid #d4e7f0e0;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,.25);}
+   .bannerlogo{margin-left: 10px; max-width: 100%;}
+   .bannercontainer{padding-left: 18%; max-width: 100%;}
+   ul {text-align: center}
+   main{padding-top: 170px;}
+}
+
+@media only screen and (min-width: 784px){
+    .mobilenav{display:none;}
+    .menucontainer{display: none;}
+}
+
+@media only screen and (min-width: 650) and (max-width: 784){
+    .menucontainer {padding-right: 100%;}
+}

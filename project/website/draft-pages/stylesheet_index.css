@@ -93,7 +93,6 @@ span {
 
 h2 {
     color: black;
-    font-family: 'Mukta', sans-serif;
 }
 
 
@@ -195,6 +194,13 @@ div {
     /*resolution 1944pxx576*/
 }
 
+
+
+.abouttext{
+    margin-left:15px;
+    margin-top: 50px;
+}
+
 .ctc, .partners{
     background-color: white;
    
@@ -211,7 +217,7 @@ color: white}
         margin-left: 100px; margin-right: 100px;
         padding: 0.2em; padding-top:1em;
         height: 60px;
-    line-height: 30px; max-width: 100%;
+    line-height: 30px;
 color: white; border-bottom: 20px solid #cee6f1;}
 
 .orgdescription{text-align: center;
@@ -239,7 +245,6 @@ main div {border: none;}
 
 .slideshowcontainer span {margin-left: 22%;}
 
-
 /*responsive design css*/
 
 @media only screen and (min-width: 1030px) {
@@ -257,20 +262,12 @@ hr {display: none;}
     main {margin-right: 10px; margin-left: 10px;}
     hr {color: gray; margin-right: 20px;}
     .orgdescription {height: 100%; padding:0.5em;}
-    .values{background-color: #76B4D1;
-        color: white; padding-left: 25px; padding-right: 25px; padding-bottom: 15px;}
-    .vtitle{text-align: center; font-size: 1.3em;}
-    .values h2{color: white; padding-top: 15px; margin-bottom: 10px;}
-    .mission{text-align: center; margin-left: 15px; margin-right: 15px;}
-    .mission h2{color: black; margin-bottom: 5px;}
-    .mtitle{font-size: 1.3em}
-    .ctc, .partners {text-align: center; margin-left: 25px; margin-right: 25px;}
-    .title{
-}
-
-@media only screen and (max-width: 555px) {
-    .title{font-size: 2em}
-
+    .values{ background-color: #76B4D1; color: white;}
+    .vtitle {text-align: center; font-weight:bolder; color: white;
+        font-family: 'Mukta', sans-serif;}
+    h2 {color: white}
+    .list{margin-right: 10px; margin-left: 10px;}
+    /*.abouttext{margin-left: 10px;}*/
 }
 
 
@@ -286,3 +283,6 @@ hr {display: none;}
 .mfooterthirdrow {padding-top: 50px; height: 215px}
 
 .mfooterforthrow{background-color: #B0DFF5;}
+
+
+

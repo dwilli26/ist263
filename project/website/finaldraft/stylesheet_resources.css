@@ -202,9 +202,12 @@ div {
     display: flex;
     padding: 1em;
     border: 1px solid black;
+    max-width:100%;
+    flex-wrap: wrap;
 }
-.resourcesinfo {float: left;}
-.resourcelogo{margin-left: 350px;}
+
+
+.resources{display: flex;}
 
 .foodandhealth{
     background-color: white; 

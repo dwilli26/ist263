@@ -8,26 +8,49 @@
          <link rel="stylesheet" href="stylesheet_index.css">
          <link rel="shortcut icon" type="image/x-icon" href="../../media/favicon.ico">
          <link rel="preconnect" href="https://fonts.gstatic.com"> 
-        <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
      </head>
 
      <body>
-         <nav class="navbar">
-                <div class="bannercontainer">
-                 <img src="../../media/bristolcares-bannerlogo-14.png" class="bannerlogo" alt="bristol cares banner logo">
-                </div>
-
-                 <ul class="navmenu">
-                     <li><a href="index.html">About Us</a></li>
-
-                     <li><a href="resources.html">Resources</a></li>
-
-                     <li><a href="contact.html">Contact</a></li>
-
-                 </ul>
-         </nav>
+        <header>
+            <nav class="navbar">
+                <div class="desktopnav">
+                   <div class="bannercontainer">
+                    <img src="../../media/bristolcares-bannerlogo-14.png" class="bannerlogo" alt="bristol cares banner logo">
+                   </div>
+   
+                    <ul class="navmenu">
+                        <li><a href="index.html">About Us</a></li>
+   
+                        <li><a href="resources.html">Resources</a></li>
+   
+                        <li><a href="contact.html">Contact</a></li>
+   
+                    </ul>
+               </div>
+   
+               <div class="mobilenav">
+                   <div class="bannercontainer">
+                    <img src="../../media/bristolcares-bannerlogo-14.png" class="bannerlogo" alt="bristol cares banner logo">
+                   </div>
+                   <div class="menucontainer">
+                    <ul class="navmenu">
+                        <li><a href="index.html">About Us</a></li>
+   
+                        <li><a href="resources.html">Resources</a></li>
+   
+                        <li><a href="contact.html">Contact</a></li>
+   
+                    </ul>
+                   </div>
+                    
+               </div>
+   
+   
+            </nav>
+        </header>
          <!-- add skip to content button with this html, this might need to be within the nav tag: <a id="skipbutton" href="#maincontent">Skip to Content</a>-->
-         <main>
+         <main id="maincontent">
             <div class="slideshowcontainer">
                 <div class="slideshowphoto">
                     <!--<img src="../../media/aboutimg2.jpg" alt="group event with students">-->
@@ -41,29 +64,35 @@
        
             <br>
                 
-                <p class="orgdescription">
+                <div class="orgdescription">
                     Bristol Cares is a prevention-based coalition developed to support the positive youth development
                     in the township and borough communities of Bristol, PA.
-                </p>
+                </div>
                 <div class="abouttext">
-                <h2>Mission</h2>
-                <p>
-                        To create a community where youth feel valued, have a vision for the future, a sense of self and community.
-                </p>
-                <div class="values">
-                <div class="vtitle"><h2>Values:</h2></div>
-                <div class= "list">
-                •	Helping our youth achieve their full potential.<br><br>
-                •	Providing engaging activities for youth around the key concepts of social emotional skills, vision of self, and community.<br><br>
-                •	Connecting our neighborhoods through collaboration to ensure drug free, safe, healthy, and happy united communities.<br><br>
-                •	Increasing bonding through attachment to family, community, and schools.<br><br>
-                •	Reducing alcohol, tobacco, and other drug use by building resiliency skills in our youth.<br><br>
-            </div>
-        </div>
-                <div class="ctc">
-                    <h2>Communities That Care Program</h2>
-                    Bristol Cares was developed under the Communities that Care (CTC) model in partnership with the Prevention Research Center at Pennsylvania State University. CTC is a prevention-based program that aids communities in marshalling resources and coming together to do good for youth. Through the assessment of risk factors and drivers for behaviors such as drug-use, CTC organizations address community needs and develop initiatives to support adolescent development. 
-                    <!--ADD information about Washington state univ ti description-->
+                    <div class="aboutrow">
+                        <div class="columnone">
+                            <div class="mission">
+                                <div class="mtitle"><h2><strong>Mission:</strong></h2></div>
+                                <p>
+                                       <strong>To create a community where youth feel valued, have a vision for the future, a sense of self and community.</strong>
+                                </p>
+                        </div>
+                        <div class="values">
+                            <div class="vtitle"><h2><strong>Values:</strong></h2></div>
+                            •	Helping our youth achieve their full potential.<br><br>
+                            •	Providing engaging activities for youth around the key concepts of social emotional skills, vision of self, and community.<br><br>
+                            •	Connecting our neighborhoods through collaboration to ensure drug free, safe, healthy, and happy united communities.<br><br>
+                            •	Increasing bonding through attachment to family, community, and schools.<br><br>
+                            •	Reducing alcohol, tobacco, and other drug use by building resiliency skills in our youth.<br><br>
+                        </div>
+                    </div>
+                    <div class="columntwo">
+                        <div class="ctc">
+                            <h2>Communities That Care Program</h2>
+                            Bristol Cares was developed under the Communities that Care (CTC) model in partnership with the Prevention Research Center at Pennsylvania State University. CTC is a prevention-based program that aids communities in marshalling resources and coming together to do good for youth. <br><br> Through the assessment of risk factors and drivers for behaviors such as drug-use, CTC organizations address community needs and develop initiatives to support adolescent development. 
+                            <!--ADD information about Washington state univ ti description-->
+                        </div>
+                    </div>
                 </div><br><br>
 <hr>
                 <div class="partners">
@@ -73,6 +102,7 @@
                     <!--image gallery of partner logos below-need to receive more-->
                     <img src="../../media/BTSDLogo.png" alt="bristol township school district logo">
                     <img src="../../media/womansplace-270x300.jpg" alt="a womens place logo">
+                    <img src="../../media/nolongerbound-logo.png" alt="no longer bound logo">
                 </div>
             </div>
          </main>
@@ -81,7 +111,7 @@
              <div class="desktopfooter">
                         <!--first row-->
                         <div class="footerfirstrow">
-                            <p class="newsletterli"><strong><a href="" id="newsletterlink">Sign up to join our newsletter!</a></strong><br></p>
+                            <p class="newsletterli"><strong><a href="http://eepurl.com/hraev1" id="newsletterlink" target="_blank">Sign up to join our newsletter!</a></strong><br></p>
                         </div>
                 
                             <div class="footersecondrow">
