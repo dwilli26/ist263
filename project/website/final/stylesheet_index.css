@@ -208,12 +208,12 @@ color: black}
 
 .title{text-align: center;
         font-size: 3.5em;
-        background-color: #76B4D1;
+        background-color: #6f98aa;
         margin-left: 100px; margin-right: 100px;
         padding: 0.2em; padding-top:1em;
         height: 60px;
     line-height: 30px; max-width: 100%;
-color: black; border-bottom: 20px solid #cee6f1;}
+color: white; border-bottom: 20px solid #cee6f1;}
 
 .orgdescription{text-align: center;
     font-size: 1.2em;
@@ -277,7 +277,7 @@ margin-right: 25px;}
     main {margin-right: 10px; margin-left: 10px;}
     hr {color: gray; margin-right: 20px;}
     .orgdescription {height: 100%; padding:0.5em;}
-    .values{background-color: #76B4D1;
+    .values{background-color: #6f98aa;
         color: white; padding-left: 25px; padding-right: 25px; padding-bottom: 15px;}
     .vtitle{text-align: center; font-size: 1.3em;}
     .values h2{color: white; padding-top: 15px; margin-bottom: 10px;}
