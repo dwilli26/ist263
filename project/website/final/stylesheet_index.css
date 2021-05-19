@@ -204,7 +204,7 @@ div {
 
 .pagetitle {margin-left: 40%;
     background-color: #76B4D1;
-color: white}
+color: black}
 
 .title{text-align: center;
         font-size: 3.5em;
@@ -213,11 +213,11 @@ color: white}
         padding: 0.2em; padding-top:1em;
         height: 60px;
     line-height: 30px; max-width: 100%;
-color: white; border-bottom: 20px solid #cee6f1;}
+color: black; border-bottom: 20px solid #cee6f1;}
 
 .orgdescription{text-align: center;
     font-size: 1.2em;
-    background-color: #76B4D1;
+    background-color: #6f98aa;
     margin-left: 0px; margin-right: 0px;
     padding-left: 50px; padding-right: 50px;
     font-weight: bold;
